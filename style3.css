@@ -1,0 +1,86 @@
+body {
+	background-image: url('https://rare-gallery.com/mocahbig/444307-github-cats-artwork-science-fiction-Octocat-cyberpunk.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+}
+
+.card {
+	border: none;
+}
+
+.card-title {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.card-text {
+	margin-bottom: 1rem;
+}
+
+.btn-primary {
+	background-color: #fca311;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #e5a509;
+}
+
+.navbar-brand {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.form-control {
+	background-image: linear-gradient(to bottom right, #87CEEB, #1E90FF);
+	color: #fff;
+}
+
+
+.form-control {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.form-control:focus {
+	background-color: #fff;
+	border-color: #fca311;
+	box-shadow: none;
+}
+
+.btn-outline-success {
+	color: #fff;
+	border-color: #fff;
+}
+
+.btn-outline-success:hover {
+	background-color: #fff;
+	color: #fca311;
+}
+
+.card-img-top {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: block;
+	float: left;
+}
+
+.card-body {
+	background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0), #ddd);
+}
+
+@media (max-width: 576px) {
+	.navbar-brand {
+		font-size: 1.2rem;
+	}
+}
